@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main-determines if a number is positive, negative or zero.
+ * main-determines if a number is greater than 5,lower than 6 or equal zero.
  *
  * Description : return value of 'main' is Return.
  *
