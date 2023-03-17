@@ -5,8 +5,7 @@
 /**
  * main -  determines if a number is positive, negative or zero.
  *
- * Description: return value of 'main' is positive,negative or zero.
- * @parameter: describe the parameter
+ * Description : return value of 'main' is Return.
  *
  * Return : Always 0 (Success)
  */
