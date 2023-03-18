@@ -8,9 +8,9 @@
 */
 int main(void)
 {
-char alp[24] = "abcdfghijklmnoprstuvwxyz";
+char alp[24] = "zyxwvutsrqponmlkjihgfedcba";
 int i;
-for (i = 0; i < 24; i--)
+for (i = 0; i < 24; i++)
 {
 putchar(alp[i]);
 }
