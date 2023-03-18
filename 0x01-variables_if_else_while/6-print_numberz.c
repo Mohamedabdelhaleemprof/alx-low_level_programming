@@ -1,4 +1,4 @@
-#includee <stdio.h>
+#include <stdio.h>
 /**
  *main-print lower case aphabets.
  *
