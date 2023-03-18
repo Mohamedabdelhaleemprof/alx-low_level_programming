@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
  *main-print lower case aphabets.
  *
@@ -8,12 +8,12 @@ include <stdio.h>
 */
 int main(void)
 {
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
-	for (i = 0; i < 52; i++)
-	{
-		putchar(alp[i]);
-	}
-	putchar('\n');
-	return (0);
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int i;
+for (i = 0; i < 52; i++)
+{
+putchar(alp[i]);
+}
+putchar('\n');
+return (0);
 }
