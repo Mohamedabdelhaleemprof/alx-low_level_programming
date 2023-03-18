@@ -8,9 +8,8 @@
 */
 int main(void)
 {
-char ch 
-
-for (ch = z; i =< a; ch--)
+char ch; 
+for (ch = z; ch => a; ch--)
 {
 putchar(ch);
 }
