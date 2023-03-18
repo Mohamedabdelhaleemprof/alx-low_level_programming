@@ -8,11 +8,11 @@
 */
 int main(void)
 {
-char alp[24] = "zyxwvutsrqponmlkjihgfedcba";
-int i;
-for (i = 0; i < 24; i++)
+char ch 
+
+for (ch = z; i =< a; ch--)
 {
-putchar(alp[i]);
+putchar(ch);
 }
 putchar('\n');
 return (0);
