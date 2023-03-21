@@ -2,7 +2,7 @@
 
 int main(void)
 {
-char a=_putchar;
-putchar ('a\n');
+char a [7] = {_putchar};
+putchar ("%c\n", a);
 return (0);
 }
