@@ -5,23 +5,17 @@
  *
  *@n: is the last digit number
  *
- * Return: n if it is equal or more than 0,otherwise it will be -n.
+ * Return: Always return a
 */
 
 int print_last_digit(int n)
 {
-	int a;
-
-	int x;
-
-	a = n + x;
-
-	x = a - n;
-for (x <= 0; x > 0; x++);
-_printchar('x');
-	if (n > 0)
-	{
-		return (n);
-	}
-	return (-n);
+int a;
+if (n < 0)
+n = -n;
+a = n % 10;
+if (a < 0)
+a = -a;
+_putchar(a + '0');
+return (a);
 }
