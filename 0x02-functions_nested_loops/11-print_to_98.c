@@ -4,22 +4,29 @@
 /**
  * print_to_98 - print to 98
  *
- *@n: numbers arranged from 0 to 98
  */
 void print_to_98(int n)
 {
-n = 0; && n = 98; && n =111;
-for (n = 0; n < 99; n++)
-{
-printf("%d, \n", n);
-}
+	int i, j;
+	if (n <= 98)
+	{
+		for (i = n; i < 99; i++)
+		{
+			if (i != 98)
+				printf("%d, \n", i);
+			else if (i == 98)
+				printf("%d, \n", i);
+		}
+	}
 
-for (n < 112; n = 98; x--)
-{
-printf("%d, \n", n);
-}
-for (n = -10; n < 99; x++)
-{
-printf("%d, \n", n);
-}
+	else if (n > 98)
+	{
+		for (j = n; j <112; j++)
+		{
+			if (j != 98)
+				printf("%d, \n", j);
+			else if (j ==98)
+				printf("%d, \n", j);
+		}
+	}
 }
