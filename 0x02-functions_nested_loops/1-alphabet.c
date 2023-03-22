@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
- *
- *is written by mbah
- *
- *Return: 0
+ *print_alphabet - print alphabets
 */
 
 void print_alphabet(void)
