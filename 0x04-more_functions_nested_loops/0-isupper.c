@@ -3,7 +3,7 @@
 /**
  * _isupper - determines if c is uppercase or otherwise
  *
- * Description : return value of 'main' is Return.
+ *@c : the character to be determined
  *
  * Return: 1 if c is upper case ,otherwise 0
  */
