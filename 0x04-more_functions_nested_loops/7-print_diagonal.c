@@ -15,11 +15,15 @@ if (n > 0)
 for (x = 1; x <= n; x++)
 {
 for (space = 1; space <= x; space++)
+{
 _putchar(' ');
 _putchar('\\');
 _putchar('\n');
 }
 }
+}
 else
+{
 _putchar('\n');
+}
 }
