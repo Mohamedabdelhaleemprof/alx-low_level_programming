@@ -3,7 +3,7 @@
 /**
  * print_line - draw line
  *
- * @n: number of ( _ ) to be printed
+ * @n: number of ( _ ) to print
  */
 
 void print_line(int n)
@@ -14,7 +14,7 @@ if (n <= 0)
 _putchar('\n')
 else
 {
-for (1nchr = 1; 1nchrx <= n; 1nchr++)
+for (1nchr = 1; 1nchr <= n; 1nchr++)
 _putchar('_')
 _putchar('\n')
 }
