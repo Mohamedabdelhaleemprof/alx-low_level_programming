@@ -8,14 +8,14 @@
 
 void print_square(int size)
 {
-	if (size =< 0)
-		_putchar('\n');
-	else 
-	{
-		for (size = 1; size <= 10; size++)
-		{
-			_putchar('#');
-		}
-	}
-	_putchar('\n');
+if (size =< 0)
+_putchar('\n');
+else 
+{
+for (size = 1; size <= 10; size++)
+{
+_putchar('#');
+}
+}
+_putchar('\n');
 }
