@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * print_line - draw line
+ * print_line - print straight line
  *
- * @n: number of ( _ ) to print
+ * @n: number of _ to be printed
  */
 
 void print_line(int n)
 {
-int InChr;
+int r;
 
 if (n <= 0)
-_putchar('\n')
+_putchar('\n');
 else
 {
-for (InChr = 1; 1nChr n; InChr++)
-_putchar('_')
-_putchar('\n')
+for (r = 1; r <= n; r++)
+_putchar('_');
+_putchar('\n');
 }
 }
