@@ -23,4 +23,5 @@ for (o = l; o > 0; o--)
 _putchar(*s);
 s--;
 }
+_putchar('\n');
 }
