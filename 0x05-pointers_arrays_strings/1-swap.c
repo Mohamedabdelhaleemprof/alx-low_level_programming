@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * swap_int - swap the a pointer with the p pointer
