@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_array - function that prints n elements of an array of integers
  *
@@ -21,6 +22,7 @@ else
 {
 prntf("%d", a[i]);
 }
+}
 printf("\n");
 }
-}
+
