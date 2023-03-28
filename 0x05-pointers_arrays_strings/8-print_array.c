@@ -20,7 +20,7 @@ printf("%d, ", a[i]);
 }
 else
 {
-prntf("%d", a[i]);
+printf("%d", a[i]);
 }
 }
 printf("\n");
