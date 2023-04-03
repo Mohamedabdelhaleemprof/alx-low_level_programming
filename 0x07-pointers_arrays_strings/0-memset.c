@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _memset - fills memory with a constant byte.
+ * *_memset - fills memory with a constant byte.
  *
  * @s:pointer
  * @b:character to be printed.
  * @n:number of bytes
+ * Return: Always (s)
  */
 
 char *_memset(char *s, char b, unsigned int n)
