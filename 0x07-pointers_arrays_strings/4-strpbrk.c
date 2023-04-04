@@ -21,5 +21,7 @@ if (accept[j] != s[x])
 return (x);
 }
 }
-return (s[x]);
+*s = s[x];
+_putchar("%s\n", s);
+return (s);
 }
