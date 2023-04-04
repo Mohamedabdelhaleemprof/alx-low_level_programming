@@ -11,7 +11,7 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-int x, j, i, f=0;
+int x, j, i, f = 0;
 
 for (x = 0; s[x] != '\0'; x++)
 {
@@ -23,8 +23,9 @@ f = 1;
 break;
 }
 }
-if (f = 1)
+if
 {
+f = 1;
 break;
 }
 }
