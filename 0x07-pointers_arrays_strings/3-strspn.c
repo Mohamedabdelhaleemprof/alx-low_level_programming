@@ -20,6 +20,6 @@ for (j = 0; accept[j] != s[x]; j++)
 if (accept[j] == '\0')
 return (x);
 }
-return (x);
 }
+return (x);
 }
