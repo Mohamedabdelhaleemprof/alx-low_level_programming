@@ -15,7 +15,7 @@ int i, j;
 char *p;
 i = 0;
 
-while (haystack[i] != '0')
+while (haystack[i] != '\0')
 {
 	j = 0;
 	if (needle[j] == haystack[i])
