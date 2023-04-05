@@ -5,7 +5,7 @@
  *
  * @s:pointer
  *
- * Return 0
+ * Return: x
  */
 
 int _strlen_recursion(char *s)
