@@ -25,7 +25,7 @@ while (haystack[i] != '\0')
 	}
 	else
 	{
-		i++;
+	i++;
 	}
 }
 return (0);
