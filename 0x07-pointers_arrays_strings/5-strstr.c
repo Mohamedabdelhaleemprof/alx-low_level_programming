@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * *_strstr - function that searches a string for any of a set of bytes.
+ * *_strstr - function that locates a substring.
  *
  * @haystack:pointer
  * @needle:pointer
  *
- * Return: Result
+ * Return: 0
  */
 
 char *_strstr(char *haystack, char *needle)
