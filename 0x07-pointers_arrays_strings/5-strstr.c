@@ -17,16 +17,16 @@ i = 0;
 
 while (haystack[i] != '0')
 {
-j = 0;
-if (needle[j] == haystack[i])
-{
-p = &haystack[i];
-return (p);
-}
-else
-{
-i++;
-}
+	j = 0;
+	if (needle[j] == haystack[i])
+	{
+		p = &haystack[i];
+		return (p);
+	}
+	else
+	{
+		i++;
+	}
 }
 return (0);
 }
