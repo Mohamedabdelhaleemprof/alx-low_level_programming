@@ -5,7 +5,7 @@
  *
  * @n:integer
  *
- * Return 0
+ * Return: n factorials
  */
 
 int factorial(int n)
