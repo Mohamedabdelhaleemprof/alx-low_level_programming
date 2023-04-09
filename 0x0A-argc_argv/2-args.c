@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 int x;
-x = argc;
+(void)argc;
 
 for (x = 0; x > 0; x++)
 {
