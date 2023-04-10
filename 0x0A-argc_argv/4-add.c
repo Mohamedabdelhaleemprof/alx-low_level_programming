@@ -22,7 +22,7 @@ while (--argc)
 			return (printf("Error\n"), 1);
 		}
 	}
-x += atoi(argv[argc]);
+	x += atoi(argv[argc]);
 }
 printf("%d\n", x);
 return (0);
