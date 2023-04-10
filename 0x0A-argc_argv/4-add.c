@@ -1,29 +1,36 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
-/**
- * main - locates a substring
- *
- *@argc:count of strings
- *@argv: the string name
- *
- *Return: 0
- */
-int main(int argc, char *argv[])
-{
-intt x = 0;
-char *c;
 
-while (--argc)
+/**
+ * main - adds positive numbers.
+ * @argc: argument count
+ * @argv: arguments
+ *
+ * Return: 0
+ */
+int main(int argc, char **argv)
 {
-	for (c = argv[argc]; *c; c++)
+	int k, w, s = 0;
+	char *a;
+
+	if (argc < 2)
 	{
-		if (*c < '0' || *c > '9')
-		{		
-			return (printf("Error\n"), 1);
+		printf("0\n");
+		return (0);
+	}
+	for (k = 1; argv[k]; k++)
+	{
+		w = strtol(argv[k], &a, 10);
+		if (*a)
+		{
+																printf("Error\n");
+																return (1);
+		}
+		else
+		{
+			s += w;
 		}
 	}
-	x += atoi(argv[argc]);
-}
-printf("%d\n", x);
-return (0);
+	printf("%d\n", s);
+	return (0);
 }
