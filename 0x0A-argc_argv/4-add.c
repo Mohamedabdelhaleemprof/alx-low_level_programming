@@ -23,8 +23,8 @@ int main(int argc, char **argv)
 		w = strtol(argv[k], &a, 10);
 		if (*a)
 		{
-																printf("Error\n");
-																return (1);
+			printf("Error\n");
+			return (1);
 		}
 		else
 		{
