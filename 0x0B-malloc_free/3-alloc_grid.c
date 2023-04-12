@@ -34,6 +34,6 @@ for (i = 0; i < height; i++)
 }
 for (i = 0; i < height; i++)
 	for (k = 0; k < width; k++)
-		array[i][k] = 0;
+		a[i][k] = 0;
 return (a);
 }
