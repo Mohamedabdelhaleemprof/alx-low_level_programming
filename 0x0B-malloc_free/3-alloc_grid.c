@@ -8,8 +8,8 @@
   *    * @height: height of array
   *     *
   *      * Return: a pointer to a 2 dimensional array of integers.
-  *       */
- int **alloc_grid(int width, int height)
+  */
+int **alloc_grid(int width, int height)
 {
 int **a, i, k;
 int l = width * height;
