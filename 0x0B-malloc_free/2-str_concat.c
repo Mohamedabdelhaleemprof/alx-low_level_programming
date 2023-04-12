@@ -12,7 +12,7 @@ return (NULL);
 for (i = 0; s1[i] != '\0'; i++)
 
 for (f = 0; s2[f] != '\0'; f++)
-x =(char *)malloc(((i + f + 1) * sizeof (char)));
+x = (char *)malloc(((i + f + 1) * sizeof(char)));
 if (x != NULL)
 {
 n = i + f;
@@ -25,12 +25,12 @@ x[j] = s1[j];
 }
 else if (j < n)
 {
-x[j] = s2[j-f+d];
+x[j] = s2[j - f + d];
 }
 }
 }
 x[n] = '\0';
-return x;
+return (x);
 }
 
 
