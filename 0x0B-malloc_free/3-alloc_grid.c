@@ -19,21 +19,21 @@ return (NULL);
 
 a = (int **)malloc(sizeof(int *) * height);
 if (a == NULL)
-return (NULL);
+	return (NULL);
 for (i = 0; i < height; i++)
 {
-a[i] = (int *)malloc(sizeof(int) * width);
-if (a[i] == NULL)
-{
-for (i--; i >= 0; i--)
-free(a[i]);
-free(a);
+	a[i] = (int *)malloc(sizeof(int) * width);
+	if (a[i] == NULL)
+	{
+		for (i--; i >= 0; i--)
+		free(a[i]);
+		free(a);
 
-return (NULL);
-}
+		return (NULL);
+	}
 }
 for (i = 0; i < height; i++)
-for (k = 0; k < width; k++)
-array[i][k] = 0;
+	for (k = 0; k < width; k++)
+		array[i][k] = 0;
 return (a);
 }
