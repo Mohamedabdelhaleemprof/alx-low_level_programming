@@ -4,20 +4,20 @@
 char *str_concat(char *s1, char *s2)
 {
 char *x;
-int i = 0, f =0, j=0, n, d;
- 
-if (s1 == NULL || s2 == NULL )
-return NULL;
+int i = 0, f = 0, j = 0, n, d;
 
-for(i = 0; s1[i] != '\0'; i++);
-for(f = 0; s2[f] != '\0'; f++);
-       
+if (s1 == NULL || s2 == NULL)
+return (NULL);
+
+for (i = 0; s1[i] != '\0'; i++)
+
+for (f = 0; s2[f] != '\0'; f++)
 x = (char *)malloc(((i + f + 1) * sizeof (char)));
-			    
-if (x != NULL){
-n = i+f;
-d = f-i;
-for(j = 0; j < n; j++)
+if (x != NULL)
+{
+n = i + f;
+d = f - i;
+for (j = 0; j < n; j++)
 {
  if(j < i)
    {
