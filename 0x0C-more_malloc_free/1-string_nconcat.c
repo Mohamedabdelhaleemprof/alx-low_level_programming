@@ -34,8 +34,8 @@ for (y = 0; s2[y]; ++y)
 }
 if (y > n)
 y = n;
-s = malloc(sizeof(char) * (x + y + 1));
-if (s == NULL)
+a = malloc(sizeof(char) * (x + y + 1));
+if (a == NULL)
 return (NULL);
 for (z = 0; z < x; z++)
 	a[z] = s1[z];
