@@ -15,18 +15,14 @@ unsigned int x, y, z, e;
 char *a;
 
 if (s1 == NULL)
-{
 	s1 = "";
-}
 if (s2 == NULL)
-{
 	s2 = "";
-}
 for (x = 0; s1[x] != '\0'; x++)
 	;
 for (y = 0; s2[y] != '\0'; y++)
 	;
-a = malloc(sizeof(char) * (x + n + 1));
+a = malloc(x + n + 1);
 if (a == NULL)
 	return (NULL);
 for (z = 0; s1[z] != '\0'; z++)
