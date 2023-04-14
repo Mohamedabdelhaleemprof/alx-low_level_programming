@@ -24,7 +24,9 @@ for (y = 0; s2[y] != '\0'; y++)
 	;
 a = malloc(x + n + 1);
 if (a == NULL)
+{
 	return (NULL);
+}
 for (z = 0; s1[z] != '\0'; z++)
 	a[z] = s1[z];
 for (e = 0; e < n; e++)
