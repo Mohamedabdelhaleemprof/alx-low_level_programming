@@ -11,7 +11,7 @@ if (min >= max)
 	return (null);
 else if (min < max)
 int x;
-for (x = 0; min <= max; x++)
+for (x = 0; x < d; x++)
 	a[x] = min++;
 return (a);
 }
