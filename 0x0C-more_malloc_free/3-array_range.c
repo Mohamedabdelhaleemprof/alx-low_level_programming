@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 int *array_range(int min, int max)
 {
 int *a;
@@ -11,6 +11,7 @@ if (min >= max)
 	return (null);
 else if (min < max)
 int x;
-for (x = min; x > max; x++)
-	a[x] = 0;
+for (x = 0; min <= max; x++)
+	a[x] = min++;
 return (a);
+}
