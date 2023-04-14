@@ -28,8 +28,10 @@ if (a == NULL)
 for (z = 0; s1[z] != '\0'; z++)
 	a[z] = s1[z];
 for (e = 0; e < n; e++)
+{
 	a[z] = s2[e];
 	z++;
+}
 a[z] = '\0';
 return (a);
 }
