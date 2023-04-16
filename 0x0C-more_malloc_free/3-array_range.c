@@ -7,10 +7,10 @@ int *a;
 int d = (max - min) + 1
 
 if (min > max)
-	return (null);
+	return (NULL);
 a = malloc(d * sizeof(int));
-if (a == null)
-	return (null);
+if (a == NULL )
+	return (NULL);
 else if (min < max)
 int x;
 for (x = 0; x < d; x++)
