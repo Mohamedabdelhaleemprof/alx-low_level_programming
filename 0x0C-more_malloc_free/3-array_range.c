@@ -16,10 +16,9 @@ int x;
 
 if (min > max)
 	return (NULL);
-a = malloc(d * sizeof(int));
+a = malloc(sizeof(int) * d);
 if (a == NULL)
 	return (NULL);
-else if (min < max)
 for (x = 0; x < d; x++)
 	a[x] = min++;
 return (a);
