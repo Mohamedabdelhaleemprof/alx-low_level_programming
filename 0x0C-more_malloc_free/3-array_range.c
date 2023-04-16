@@ -3,8 +3,8 @@
 
 /**
  *array_range - function that creates an array of integers.
- *@min:
- *@max:
+ *@min:minimum
+ *@max:maximum
  *Return: a
  */
 
