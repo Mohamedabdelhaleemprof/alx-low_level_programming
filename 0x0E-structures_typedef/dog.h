@@ -1,4 +1,4 @@
-#ifndef DOG 
+#ifndef DOG
 #define DOG
 /**
  * struct dog - dog structure
