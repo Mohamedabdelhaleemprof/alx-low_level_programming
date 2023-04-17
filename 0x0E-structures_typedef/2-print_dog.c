@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * print_dog - print 
+ * print_dog - print
  * @d: pointer
  *
  * Return: void
