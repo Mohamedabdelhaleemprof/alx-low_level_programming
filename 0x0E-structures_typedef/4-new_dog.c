@@ -22,7 +22,7 @@ if (k == NULL)
 for (x = 0; name[x]; x++)
 	;
 x++;
-k->name = malloc(x * sizeof(char));
+k->name = malloc(x *sizeof(char));
 if (k->name == NULL)
 {
 	free(k);
@@ -34,7 +34,7 @@ k->age = age;
 for (y = 0; owner[y]; y++)
 	;
 y++;
-k->owner = malloc(y * sizeof(char));
+k->owner = malloc(y *sizeof(char));
 if (k->owner == NULL)
 {
 	free(k->name);
