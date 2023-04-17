@@ -42,6 +42,6 @@ if (k->owner == NULL)
 	return (NULL);
 }
 for (z = 0; z < y; z++)
-	dog->owner[z] = owner[z];
+	k->owner[z] = owner[z];
 return (k);
 }
