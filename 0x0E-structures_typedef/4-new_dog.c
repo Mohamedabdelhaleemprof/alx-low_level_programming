@@ -2,12 +2,12 @@
 #include "dog.h"
 
 /**
- * new_dog - creates a new dog
- * @name: name of dog
- *@age: age of dog
- *@owner: owner of dog
+ * new_dog - new dog
+ * @name: the name
+ *@age: the age
+ *@owner: the owner
  *
- *Return: pointer to new dog
+ *Return: pointer
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -15,10 +15,10 @@ unsigned int x, y, z;
 dog_t *k;
 
 if (name == NULL || owner == NULL)
-							return (NULL);
+return (NULL);
 k = malloc(sizeof(dog_t));
 if (k == NULL)
-	return (NULL);
+return (NULL);
 for (x = 0; name[x]; x++)
 		;
 x++;
