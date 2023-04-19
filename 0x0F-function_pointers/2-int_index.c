@@ -13,15 +13,15 @@ int x = 0;
 
 if (size > 0)
 {
-if (array != NULL && cmp != NULL)
-{
-	while (i < size)
+	if (array != NULL && cmp != NULL)
 	{
-		if (cmp(array[x]))
-			return (x);
-		x++;
+		while (i < size)
+		{
+			if (cmp(array[x]))
+				return (x);
+			x++;
+		}
 	}
-}
 }
 return (-1);
 }
