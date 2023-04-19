@@ -23,6 +23,5 @@ if (size > 0)
 		}
 	}
 }
-else
 return (-1);
 }
