@@ -15,7 +15,7 @@ if (size > 0)
 {
 	if (array != NULL && cmp != NULL)
 	{
-		while (i < size)
+		while (x < size)
 		{
 			if (cmp(array[x]))
 				return (x);
@@ -23,5 +23,6 @@ if (size > 0)
 		}
 	}
 }
+else
 return (-1);
 }
