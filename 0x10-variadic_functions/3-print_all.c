@@ -19,32 +19,32 @@ while (format != NULL && format[x] != '\0')
 	switch (format[x])
 	{
 		case '1':
-		printf("%c", va_arg(p, int));
-		s = 0;
-		break;
+			printf("%c", va_arg(p, int));
+			s = 0;
+			break;
 		case '2':
-		printf("%i", va_arg(p, int));
-		s = 0;
-		break;
+			printf("%i", va_arg(p, int));
+			s = 0;
+			break;
 		case '3':
-		printf("%f", va_arg(p, double));
-		s = 0;
-		break;
+			printf("%f", va_arg(p, double));
+			s = 0;
+			break;
 		case '4':
-		c = va_arg(p, char*);
-		if (c == NULL)
-			c = "(nil)";
-		printf("%s", c);
-		s = 0;
-		break;
+			c = va_arg(p, char*);
+			if (c == NULL)
+				c = "(nil)";
+			printf("%s", c);
+			s = 0;
+			break;
 		default:
-		s = 1;
-		break;
+			s = 1;
+			break;
 	}
 	if (format[x + 1] != '\0' && s == 0)
 			printf(", ");
 	x++;
 	}
 printf("\n");
-va_end(a_list);
+va_end(p);
 }
