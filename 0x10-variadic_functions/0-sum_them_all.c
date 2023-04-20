@@ -13,9 +13,9 @@ unsigned int x, sum = 0;
 va_list p;
 va_start(p, n);
 if (n == 0)
-	return(0);
+	return (0);
 x = 0;
-for (x =0; x < n; x++)
+for (x = 0; x < n; x++)
 {
 sum += va_arg(p, int);
 }
