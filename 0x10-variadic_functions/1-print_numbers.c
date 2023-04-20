@@ -17,7 +17,9 @@ if (separator == NULL)
 x = 0;
 for (x = 0; x < n; x++)
 {
-	printf("%d%s", va_arg(p, int), separator);
+	printf("%d", va_arg(p, int));
+	if (x < n - 1)
+		printf("%s", separator);
 }
 printf("\n");
 va_end(p);
