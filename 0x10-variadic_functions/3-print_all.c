@@ -42,8 +42,8 @@ while (format != NULL && format[x] != '\0')
 			break;
 	}
 	if (format[x + 1] != '\0' && s == 0)
-	{		printf(", ");}	
-	x++; 
+	{printf(", "); }
+	x++;
 	}
 printf("\n");
 va_end(p);
