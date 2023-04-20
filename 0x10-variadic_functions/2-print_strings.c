@@ -21,10 +21,10 @@ for (x = 0; x < n; x++)
 {
 a = va_arg(p, char*);
 if (a == NULL)
-printf("(nil)");
+	printf("(nil)");
 printf("%s", a);
 if (x < n - 1)
-printf("%s", separator);
+	printf("%s", separator);
 }
 va_end(p);
 printf("\n");
