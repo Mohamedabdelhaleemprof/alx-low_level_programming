@@ -9,7 +9,7 @@
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-char *a
+char *a;
 unsigned int x;
 va_list p;
 va_start(p, n);
