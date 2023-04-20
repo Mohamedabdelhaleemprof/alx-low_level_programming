@@ -18,19 +18,19 @@ while (format != NULL && format[x] != '\0')
 {
 	switch (format[x])
 	{
-		case '1':
+		case 'l':
 			printf("%c", va_arg(p, int));
 			s = 0;
 			break;
-		case '2':
+		case 'm':
 			printf("%i", va_arg(p, int));
 			s = 0;
 			break;
-		case '3':
+		case 'n':
 			printf("%f", va_arg(p, double));
 			s = 0;
 			break;
-		case '4':
+		case 'o':
 			c = va_arg(p, char*);
 			if (c == NULL)
 				c = "(nil)";
@@ -42,7 +42,7 @@ while (format != NULL && format[x] != '\0')
 			break;
 	}
 	if (format[x + 1] != '\0' && s == 0)
-			printf(", ");
+	{		printf(", ");	}
 	x++;
 	}
 printf("\n");
