@@ -21,7 +21,7 @@ for (x = 0; x < n; x++)
 {
 a = va_arg(p, char*);
 if (a == NULL)
-	printf("(nil)");
+	a = "(nil)";
 printf("%s", a);
 if (x < n - 1)
 	printf("%s", separator);
