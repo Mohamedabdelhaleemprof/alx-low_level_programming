@@ -15,9 +15,9 @@ va_start(p, n);
 if (separator == NULL)
 	separator = "";
 x = 0;
-for (x =0; x < n; x++)
+for (x = 0; x < n; x++)
 {
-        printf("%d%s",va_arg(p, int),separator);
+	printf("%d%s", va_arg(p, int), separator);
 }
 printf("\n");
 va_end(p);
