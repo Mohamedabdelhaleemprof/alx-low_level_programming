@@ -7,7 +7,7 @@
  *@a: int
  *@b: int
  *
- *Return: sum 
+ *Return: sum
  */
 int op_add(int a, int b)
 {
@@ -20,7 +20,7 @@ return (a + b);
  *@b:int.
  *
  *Return:subtraction
- *             */
+ */
 int op_sub(int a, int b)
 {
 return (a - b);
@@ -60,7 +60,7 @@ return (a / b);
  * @a:int
  * @b:int
  * Return:module
- *             */
+ */
 int op_mod(int a, int b)
 {
 if (b == 0)
