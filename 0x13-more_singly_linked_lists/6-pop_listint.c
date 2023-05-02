@@ -15,7 +15,7 @@ if (head == NULL || *head == NULL)
 return (0);
 m = *head;
 *head = m->next;
-x = m->x;
+x = m->n;
 free(m);
 return (x);
 }
