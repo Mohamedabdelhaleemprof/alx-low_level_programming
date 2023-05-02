@@ -14,12 +14,12 @@ if ((*head)->next == NULL)
 	return (*head);
 m = NULL;
 while (*head != NULL)
-	{
-		t = (*head)->next;
-		(*head)->next = m;
-		m = *head;
-		*head = t;
-	}
+{
+	t = (*head)->next;
+	(*head)->next = m;
+	m = *head;
+	*head = t;
+}
 *head = m;
 return (*head);
 }
