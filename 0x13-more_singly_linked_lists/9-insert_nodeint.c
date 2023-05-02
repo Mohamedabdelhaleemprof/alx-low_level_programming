@@ -6,7 +6,7 @@
  *   @head: head
  *    @idx: node number
  *     @n: new node
- *      Return: 
+ *      Return: t
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
@@ -19,7 +19,7 @@ if (idx != 0)
 m = *head;
 for (x = 0; x < idx - 1 && m != NULL; x++)
 {
-m = temp->next;
+m = m->next;
 }
 if (m == NULL)
 return (NULL);
