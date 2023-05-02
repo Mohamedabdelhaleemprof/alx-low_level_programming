@@ -20,8 +20,8 @@ free(list);
 exit(98);
 }
 for (x = 0; x < size - 1; x++)
-w[x] = list[x];
-w[i] = new;
+	w[x] = list[x];
+w[x] = new;
 free(list);
 return (w);
 }
