@@ -20,7 +20,7 @@ free(list);
 exit(98);
 }
 for (x = 0; x < size - 1; x++)
-m[x] = list[x];
+	m[x] = list[x];
 m[x] = new;
 free(list);
 return (m);
@@ -47,7 +47,7 @@ return (t);
 }
 }
 t++;
-w = _r(list, num, head);
+w = _r(w, t, head);
 printf("[%p] %d\n", (void *)head, head->n);
 head = head->next;
 }
