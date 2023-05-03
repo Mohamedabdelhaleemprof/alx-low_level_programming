@@ -3,9 +3,9 @@
 #include "lists.h"
 
 /**
- *  _strlen - length
+ *_strlen - length of node
  *   @str: str
- *    Return:
+ *    Return: x
  */
 unsigned int _strlen(char *str)
 {
