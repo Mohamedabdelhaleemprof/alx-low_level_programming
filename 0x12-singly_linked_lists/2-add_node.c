@@ -5,7 +5,7 @@
 
 /**
  *  _strlen - length
- *   @s : s 
+ *   @s : s
  *    Return: x
  */
 int _strlen(const char *s)
