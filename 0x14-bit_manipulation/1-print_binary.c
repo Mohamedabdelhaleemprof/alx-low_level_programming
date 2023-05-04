@@ -15,7 +15,7 @@ c *= a;
 return (c);
 }
 /**
- *  print_binary - prints the binary 
+ *  print_binary - prints the binary
  *   @n: num
  *    Return: void
  */
