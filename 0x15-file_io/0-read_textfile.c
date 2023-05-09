@@ -17,7 +17,7 @@ d = malloc(sizeof(char) * letters);
 if (d == NULL)
 return (0);
 a = open(filename, O_RDONLY);
-b = read(o, d, letters);
+b = read(a, d, letters);
 c = write(STDOUT_FILENO, d, b);
 if (a == -1 || b == -1 || c == -1 || c != r)
 {
