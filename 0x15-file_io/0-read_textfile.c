@@ -19,7 +19,7 @@ return (0);
 a = open(filename, O_RDONLY);
 b = read(a, d, letters);
 c = write(STDOUT_FILENO, d, b);
-if (a == -1 || b == -1 || c == -1 || c != r)
+if (a == -1 || b == -1 || c == -1 || c != b)
 {
 free(d);
 return (0);
