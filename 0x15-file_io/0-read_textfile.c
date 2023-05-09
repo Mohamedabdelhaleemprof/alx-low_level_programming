@@ -13,18 +13,18 @@ ssize_t a, b, c;
 char *d;
 if (filename == NULL)
 return (0);
-e = malloc(sizeof(char) * letters);
-if (e == NULL)
+d = malloc(sizeof(char) * letters);
+if (d == NULL)
 return (0);
 a = open(filename, O_RDONLY);
-b = read(o, e, letters);
-c = write(STDOUT_FILENO, e, b);
+b = read(o, d, letters);
+c = write(STDOUT_FILENO, d, b);
 if (a == -1 || b == -1 || c == -1 || c != r)
 {
-free(e);
+free(d);
 return (0);
 }
-free(e);
+free(d);
 close(a);
 return (c);
 }
