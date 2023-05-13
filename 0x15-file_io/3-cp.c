@@ -21,10 +21,10 @@ close(fd);
 exit(exit_code);
 }
 /**
- * main - main
+ * main - main task
  *@argc: parameter
  *@argv: parameter
- *Return : 0 on SUCCESS
+ *Return :0 on success
  */
 int main(int argc, char *argv[])
 {
@@ -45,7 +45,7 @@ print(98, "Error: Can't read from file %s\n", argv[1], -1);
 file_to_fd = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
 if (file_to_fd == -1)
 {
-print(99 , "Error: Can't write to %s\n", argv[2] , file_from_fd);
+print(99, "Error: Can't write to %s\n", argv[2], file_from_fd);
 }
 while ((read_count = read(file_from_fd, buffer, BUFFER_SIZE)) > 0)
 {
