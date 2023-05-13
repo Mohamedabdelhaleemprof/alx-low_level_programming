@@ -30,7 +30,7 @@ if (a == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", b);
 if (c != -1)
-close();
+close(c);
 if (d != -1)
 close(d);
 exit(98);
