@@ -1,3 +1,4 @@
+#include <main.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -5,7 +6,14 @@
 #include <errno.h>
 
 #define BUFFER_SIZE 1024
-
+/**
+ * print_error_and_exit - print
+ *@exit_code: parameter
+ *@error_message : parameter
+ *@filename : parameter
+ *@fd : parameter
+ *return : void
+ */
 void print_error_and_exit(int exit_code, char* error_message, char* filename, int fd)
 {
 dprintf(STDERR_FILENO, error_message, filename);
@@ -15,6 +23,12 @@ close(fd);
 exit(exit_code);
 }
 
+/**
+ * main - main
+ *@argc: parameter
+ *@argv[]: parameter
+ *return : 0
+ */
 int main(int argc, char *argv[])
 {
   int file_from_fd;
