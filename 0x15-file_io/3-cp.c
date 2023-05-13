@@ -6,37 +6,36 @@
 
 #define BUFFER_SIZE 1024
 /**
- * print_error_and_exit - print
+ * print - print
  *@exit_code: parameter
  *@error_message : parameter
  *@filename : parameter
  *@fd : parameter
  *return : void
  */
-void print_error_and_exit(int exit_code, char* error_message, char* filename, int fd)
+void print(int exit_code, char *error_message, char *filename, int fd)
 {
 dprintf(STDERR_FILENO, error_message, filename);
-if (fd != -1) {
+if (fd != -1)
 close(fd);
-}
 exit(exit_code);
 }
 /**
  * main - main
  *@argc: parameter
- *@argv[]: parameter
- *return : 0
+ *@argv: parameter
+ *Return : 0
  */
 int main(int argc, char *argv[])
 {
-  int file_from_fd;
- int file_to_fd;
- char buffer[1024];
- ssize_t read_count, write_count;
+int file_from_fd;
+int file_to_fd;
+char buffer[1024];
+ssize_t read_count, write_count;
 
 if (argc != 3)
 {
-print_error_and_exit(97, "Usage: cp file_from file_to\n", "", -1);
+print(97, "Usage: cp file_from file_to\n", "", -1);
 }
 file_from_fd = open(argv[1], O_RDONLY);
 if (file_from_fd == -1)
