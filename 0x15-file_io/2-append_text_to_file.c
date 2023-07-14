@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ad - ad
+ * add - ad
  * @a: pointer
  *
  * Return: b
