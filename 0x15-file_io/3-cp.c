@@ -4,7 +4,7 @@
 
 /**
  * a97 - check
- * @a: 
+ * @a:
  *
  * Return: void
  */
@@ -72,7 +72,7 @@ void a100(int k, int l)
 {
 	if (k == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", l);		
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", l);
 exit(100);
 	}
 }
